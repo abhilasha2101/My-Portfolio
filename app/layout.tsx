@@ -4,22 +4,24 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Abhilasha Kumari — The Deck | Software Engineer Portfolio",
   description:
-    "Personal portfolio of Abhilasha Kumari, Software Engineer. A collectible playing card archive exploring scalable web systems, AI applications, and tactile digital craftsmanship.",
+    "Personal portfolio of Abhilasha Kumari, Software Engineer. A collectible playing card archive exploring scalable web systems, Java & backend engineering, and tactile digital craftsmanship.",
   keywords: [
     "Abhilasha Kumari",
     "Software Engineer",
     "Full-Stack Developer",
+    "Java Developer",
     "Portfolio",
     "The Deck",
     "Next.js",
     "React",
     "TypeScript",
+    "Spring Boot",
   ],
   authors: [{ name: "Abhilasha Kumari" }],
   openGraph: {
     title: "Abhilasha Kumari — The Deck | Software Engineer Portfolio",
     description:
-      "A collectible playing card archive exploring scalable web systems, AI applications, and tactile digital craftsmanship.",
+      "A collectible playing card archive exploring scalable web systems, Java & backend engineering, and tactile digital craftsmanship.",
     type: "website",
   },
 };
