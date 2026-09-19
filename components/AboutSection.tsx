@@ -178,7 +178,7 @@ export const AboutSection: React.FC = () => {
                 </div>
                 <div className="flex flex-col items-center">
                   <span className="font-label text-[7px] uppercase tracking-widest text-[#9a8f80]">FOCUS</span>
-                  <span className="font-body text-xs text-[#ff9da2] font-medium">Web &amp; AI</span>
+                  <span className="font-body text-xs text-[#ff9da2] font-medium">Java &amp; Web</span>
                 </div>
               </div>
             </div>

@@ -449,14 +449,14 @@ export const ProjectsSection: React.FC = () => {
             whileTap={{ scale: 0.98 }}
             onClick={() => setShowMore(!showMore)}
             aria-expanded={showMore}
-            aria-label={showMore ? "Collapse archived projects" : "View more projects including TwoDo and AI Agent Workflow Builder"}
+            aria-label={showMore ? "Collapse archived projects" : "View more projects including TwoDo and Booth Management System"}
             className="group inline-flex items-center gap-2 px-5 sm:px-6 py-3 rounded-full bg-[#1c1b1c] hover:bg-[#201f20] text-[#e5e2e3] hover:text-[#e9c176] font-label text-[9px] sm:text-[10px] uppercase tracking-[0.18em] sm:tracking-[0.2em] font-semibold border border-[#c5a059]/40 hover:border-[#c5a059] shadow-lg transition-all cursor-pointer min-h-[44px]"
           >
             <span className="text-[#e9c176] font-headline text-sm select-none">♠</span>
             <span>
               {showMore
                 ? "HIDE ARCHIVED PROJECTS"
-                : `VIEW MORE PROJECTS [${MORE_PROJECTS.length} MORE: TWODO & WORKFLOW BUILDER]`}
+                : `VIEW MORE PROJECTS [${MORE_PROJECTS.length} MORE: TWODO & BOOTH SYSTEM]`}
             </span>
             {showMore ? (
               <ChevronUp className="w-3.5 h-3.5 text-[#e9c176] group-hover:-translate-y-0.5 transition-transform" />

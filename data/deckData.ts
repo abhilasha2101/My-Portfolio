@@ -295,7 +295,7 @@ export const SKILL_CARDS: SkillCard[] = [
       "Crafting responsive, performant, and accessible user interfaces with modern component frameworks and styling tools.",
     dossier:
       "Component-driven frontend design, client-side state management, responsive layouts, and performance optimization.",
-    skills: ["React", "Next.js", "JavaScript", "TypeScript", "HTML", "CSS", "Tailwind CSS"],
+    skills: ["React", "Next.js", "JavaScript", "TypeScript", "Tailwind CSS", "HTML5", "CSS3"],
   },
   {
     id: "backend",
@@ -309,7 +309,7 @@ export const SKILL_CARDS: SkillCard[] = [
       "Developing resilient RESTful APIs, modular backend services, scalable server-side business logic, and secure authentication.",
     dossier:
       "API design, microservices architecture, server-side data validation, error handling, and scalable backend workflows.",
-    skills: ["Node.js", "Express.js", "Java", "Spring Boot"],
+    skills: ["Java", "Spring Boot", "Node.js", "Express.js", "C/C++", "REST APIs"],
   },
   {
     id: "database",
@@ -323,7 +323,7 @@ export const SKILL_CARDS: SkillCard[] = [
       "Designing relational schemas, document datastores, low-latency queries, and reliable data synchronization.",
     dossier:
       "Relational schema modeling, query optimization, indexing strategies, and cloud database management.",
-    skills: ["SQL", "Supabase", "MongoDB"],
+    skills: ["PostgreSQL", "SQL", "Supabase", "MongoDB", "DBMS"],
   },
   {
     id: "tools",
@@ -337,7 +337,7 @@ export const SKILL_CARDS: SkillCard[] = [
       "Version control, automated builds, API documentation, dependency management, and efficient software engineering practices.",
     dossier:
       "Git branch workflows, automated build scripts, API documentation with Swagger, and modern dev tooling.",
-    skills: ["Git", "GitHub", "REST APIs", "Swagger", "Maven / Gradle"],
+    skills: ["Git", "GitHub", "Docker", "Linux", "IntelliJ", "VS Code", "REST APIs"],
   },
 ];
 
