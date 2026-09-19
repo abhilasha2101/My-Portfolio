@@ -209,46 +209,6 @@ export const ContactSection: React.FC = () => {
           </article>
         </motion.div>
       </div>
-
-      {/* Summary Strip: Responsive wrapping */}
-      <div className="w-full max-w-4xl mx-auto pb-4 sm:pb-8">
-        <div className="rounded-xl bg-[#1c1b1c] border border-[#c5a059]/20 p-4 sm:p-5 flex flex-col md:flex-row items-center justify-between gap-4 shadow-md">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded bg-[#201f20] flex items-center justify-center text-[#e9c176] border border-[#c5a059]/30 text-lg shrink-0">
-              ♠
-            </div>
-            <div className="flex flex-col text-left">
-              <span className="font-label text-[9px] uppercase tracking-wider text-[#e5e2e3] font-semibold">
-                PORTFOLIO OVERVIEW
-              </span>
-              <span className="font-body text-xs text-[#d1c5b4]">
-                Projects, Technical Skills &amp; Achievements
-              </span>
-            </div>
-          </div>
-
-          <div className="hidden lg:flex items-center gap-6 text-[#9a8f80]">
-            <div className="flex flex-col items-center">
-              <span className="font-headline text-base text-[#e5e2e3] leading-none font-medium">05</span>
-              <span className="font-label text-[8px] uppercase tracking-wider text-[#9a8f80]">SECTIONS</span>
-            </div>
-            <span>/</span>
-            <div className="flex flex-col items-center">
-              <span className="font-headline text-base text-[#e5e2e3] leading-none font-medium">100%</span>
-              <span className="font-label text-[8px] uppercase tracking-wider text-[#9a8f80]">VERIFIED</span>
-            </div>
-            <span>/</span>
-            <div className="flex flex-col items-center">
-              <span className="font-headline text-base text-[#e9c176] leading-none">♠ ♥ ♦ ♣</span>
-              <span className="font-label text-[8px] uppercase tracking-wider text-[#9a8f80]">FOUR DISCIPLINES</span>
-            </div>
-          </div>
-
-          <div className="px-3 py-1.5 rounded bg-[#201f20] font-label text-[8px] sm:text-[9px] text-[#ccc6b9] uppercase tracking-widest border border-[#c5a059]/20 font-medium text-center">
-            OPEN FOR SOFTWARE ROLES &amp; COLLABORATIONS
-          </div>
-        </div>
-      </div>
     </section>
   );
 };

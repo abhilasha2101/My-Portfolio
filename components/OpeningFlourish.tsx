@@ -92,12 +92,12 @@ export const OpeningFlourish: React.FC<OpeningFlourishProps> = ({ onComplete }) 
           >
             <div className="flex justify-between items-center text-xs font-bold text-[#9a8f80]">
               <span>10 ♣</span>
-              <span className="font-label text-[8px] tracking-widest uppercase">FRONTEND &amp; UI</span>
+              <span className="font-label text-[8px] tracking-widest uppercase">WEB DEVELOPER</span>
               <span>10 ♣</span>
             </div>
             <div className="text-center text-[#9a8f80]/30 text-6xl">♣</div>
             <div className="text-[8px] font-label tracking-widest text-[#9a8f80] text-center uppercase">
-              REACT • NEXT.JS • CSS
+              REACT • NEXT.JS • TAILWIND
             </div>
           </motion.div>
 
@@ -120,12 +120,12 @@ export const OpeningFlourish: React.FC<OpeningFlourishProps> = ({ onComplete }) 
           >
             <div className="flex justify-between items-center text-xs font-bold text-[#ffb3b5]">
               <span>Q ♦</span>
-              <span className="font-label text-[8px] tracking-widest uppercase">JAVA &amp; SPRING BOOT</span>
+              <span className="font-label text-[8px] tracking-widest uppercase">JAVA DEVELOPER</span>
               <span>Q ♦</span>
             </div>
             <div className="text-center text-[#ffb3b5]/30 text-6xl">♦</div>
             <div className="text-[8px] font-label tracking-widest text-[#ffb3b5]/80 text-center uppercase">
-              JAVA • SPRING BOOT • OOP
+              JAVA • SPRING BOOT • POSTGRES
             </div>
           </motion.div>
 
@@ -148,12 +148,12 @@ export const OpeningFlourish: React.FC<OpeningFlourishProps> = ({ onComplete }) 
           >
             <div className="flex justify-between items-center text-xs font-bold text-[#ffb3b5]">
               <span>K ♥</span>
-              <span className="font-label text-[8px] tracking-widest uppercase">BACKEND SYSTEMS</span>
+              <span className="font-label text-[8px] tracking-widest uppercase">BACKEND DEVELOPER</span>
               <span>K ♥</span>
             </div>
             <div className="text-center text-[#ffb3b5]/30 text-6xl">♥</div>
             <div className="text-[8px] font-label tracking-widest text-[#ffb3b5]/80 text-center uppercase">
-              NODE.JS • JAVA • SPRING
+              JAVA • SPRING BOOT • NODE.JS
             </div>
           </motion.div>
 

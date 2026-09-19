@@ -50,32 +50,33 @@ export const HeroSection: React.FC = () => {
         </svg>
       </div>
 
-      {/* Top Meta Header: Fully Responsive */}
+      {/* Top Meta Header: Clean, balanced, luxury badges */}
       <motion.div
-        initial={{ opacity: 0, y: -20 }}
+        initial={{ opacity: 0, y: -16 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="relative z-10 w-full max-w-5xl flex flex-wrap items-center justify-between gap-2 text-xs mb-4 sm:mb-6"
+        className="relative z-10 w-full max-w-4xl flex items-center justify-between gap-3 text-xs mb-5 sm:mb-7 px-2"
       >
-        <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-[#0e0e0f]/80 border border-[#c5a059]/30 backdrop-blur-sm shadow-sm">
+        <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#1c1b1c]/90 border border-[#c5a059]/30 backdrop-blur-md shadow-sm">
           <span className="w-1.5 h-1.5 rounded-full bg-[#e9c176] animate-pulse drop-shadow-[0_0_6px_rgba(233,193,118,0.8)]" />
-          <span className="font-label text-[8px] sm:text-[9px] uppercase tracking-[0.22em] text-[#e9c176] font-semibold">
-            SOFTWARE DEVELOPER • 2025
+          <span className="font-label text-[8.5px] sm:text-[9.5px] uppercase tracking-[0.2em] text-[#e9c176] font-semibold whitespace-nowrap">
+            FULL-STACK DEVELOPER
           </span>
         </div>
 
-        <div className="hidden md:flex items-center gap-3 px-4 py-1 rounded-full bg-[#0e0e0f]/60 border border-[#9a8f80]/30 backdrop-blur-sm">
-          <span className="font-label text-[9px] uppercase tracking-[0.24em] text-[#e9c176] font-medium">
-            {activePersona.suitName} • {activePersona.name}
+        <div className="hidden sm:flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-[#1c1b1c]/80 border border-[#9a8f80]/30 backdrop-blur-md">
+          <span className="font-label text-[9px] uppercase tracking-[0.22em] text-[#e5e2e3] font-medium whitespace-nowrap">
+            {activePersona.name}
           </span>
-          <span className="text-[#c5a059]/40 text-[10px]">◆</span>
-          <span className="font-label text-[9px] uppercase tracking-[0.2em] text-[#ccc6b9]">
-            B.TECH INFORMATION TECHNOLOGY
+          <span className="text-[#c5a059]/40 text-[9px]">◆</span>
+          <span className="font-label text-[9px] uppercase tracking-[0.2em] text-[#ccc6b9] whitespace-nowrap">
+            B.TECH IT
           </span>
         </div>
 
-        <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#0e0e0f]/80 border border-[#c5a059]/30 backdrop-blur-sm">
-          <span className="font-label text-[8px] sm:text-[9px] uppercase tracking-[0.22em] text-[#e9c176]/90 font-semibold">
+        <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#1c1b1c]/90 border border-[#c5a059]/30 backdrop-blur-md shadow-sm">
+          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
+          <span className="font-label text-[8.5px] sm:text-[9.5px] uppercase tracking-[0.2em] text-[#e9c176] font-semibold whitespace-nowrap">
             INDORE, MP • OPEN TO WORK
           </span>
         </div>
@@ -97,7 +98,7 @@ export const HeroSection: React.FC = () => {
             <div className="w-full h-full rounded-lg border border-[#9a8f80]/20 bg-[#1c1b1c] p-2.5 sm:p-3 flex flex-col justify-between items-center overflow-hidden">
               <div className="w-full flex justify-between items-center text-[9px] sm:text-[10px] font-bold text-[#9a8f80]">
                 <span>10 ♣</span>
-                <span className="font-label text-[7px] sm:text-[8px] tracking-widest uppercase">FRONTEND &amp; UI</span>
+                <span className="font-label text-[7px] sm:text-[8px] tracking-widest uppercase">WEB DEVELOPER</span>
                 <span>10 ♣</span>
               </div>
               <div className="text-3xl sm:text-4xl text-[#9a8f80]/30">♣</div>
@@ -119,12 +120,12 @@ export const HeroSection: React.FC = () => {
             <div className="w-full h-full rounded-lg border border-[#c5a059]/20 bg-[#1c1b1c] p-2.5 sm:p-3 flex flex-col justify-between items-center overflow-hidden">
               <div className="w-full flex justify-between items-center text-[9px] sm:text-[10px] font-bold text-[#ffb3b5]">
                 <span>Q ♦</span>
-                <span className="font-label text-[7px] sm:text-[8px] tracking-widest uppercase">JAVA &amp; SPRING</span>
+                <span className="font-label text-[7px] sm:text-[8px] tracking-widest uppercase">JAVA DEVELOPER</span>
                 <span>Q ♦</span>
               </div>
               <div className="text-3xl sm:text-4xl text-[#ffb3b5]/40">♦</div>
               <span className="font-label text-[7px] sm:text-[8px] text-[#9a8f80] tracking-widest uppercase">
-                JAVA • SPRING BOOT • OOP
+                JAVA • SPRING BOOT • POSTGRES
               </span>
             </div>
           </div>
@@ -141,7 +142,7 @@ export const HeroSection: React.FC = () => {
             <div className="w-full h-full rounded-lg border border-[#c5a059]/20 bg-[#1c1b1c] p-2.5 sm:p-3 flex flex-col justify-between items-center overflow-hidden">
               <div className="w-full flex justify-between items-center text-[9px] sm:text-[10px] font-bold text-[#ffb3b5]">
                 <span>K ♥</span>
-                <span className="font-label text-[7px] sm:text-[8px] tracking-widest uppercase">BACKEND</span>
+                <span className="font-label text-[7px] sm:text-[8px] tracking-widest uppercase">BACKEND DEVELOPER</span>
                 <span>K ♥</span>
               </div>
               <div className="text-3xl sm:text-4xl text-[#ffb3b5]/40">♥</div>
@@ -163,12 +164,12 @@ export const HeroSection: React.FC = () => {
             <div className="w-full h-full rounded-lg border border-[#9a8f80]/20 bg-[#1c1b1c] p-2.5 sm:p-3 flex flex-col justify-between items-center overflow-hidden">
               <div className="w-full flex justify-between items-center text-[9px] sm:text-[10px] font-bold text-[#9a8f80]">
                 <span>A ♠</span>
-                <span className="font-label text-[7px] sm:text-[8px] tracking-widest uppercase">FULL-STACK</span>
+                <span className="font-label text-[7px] sm:text-[8px] tracking-widest uppercase">FULL-STACK DEVELOPER</span>
                 <span>A ♠</span>
               </div>
               <div className="text-3xl sm:text-4xl text-[#9a8f80]/30">♠</div>
               <span className="font-label text-[7px] sm:text-[8px] text-[#9a8f80] tracking-widest uppercase">
-                PRODUCTION APPLICATIONS
+                NEXT.JS • REACT • TYPESCRIPT
               </span>
             </div>
           </div>
