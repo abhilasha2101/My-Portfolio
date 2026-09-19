@@ -32,3 +32,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# loose root duplicates (already preserved in public/)
+/aakargovt.mp4
+/abhilasha.pdf
