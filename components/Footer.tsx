@@ -26,9 +26,6 @@ export const Footer: React.FC = () => {
             <Code2 className="w-3 h-3 text-[#e9c176]" />
             <span>Next.js • TypeScript • Tailwind</span>
           </div>
-          <span className="font-label text-[9px] text-[#9a8f80] tracking-[0.24em]">
-            2025
-          </span>
         </div>
       </div>
     </footer>

@@ -190,7 +190,7 @@ export const ContactSection: React.FC = () => {
                 <div className="flex flex-col items-center text-center px-2">
                   <div className="w-12 sm:w-14 h-px bg-gradient-to-r from-transparent via-[#c5a059] to-transparent mb-1 opacity-60" />
                   <p className="font-label text-[8px] uppercase tracking-[0.22em] text-[#d1c5b4] font-medium">
-                    PORTFOLIO 2025 • ABHILASHA KUMARI
+                    PORTFOLIO • ABHILASHA KUMARI
                   </p>
                   <span className="font-body text-[10px] text-[#9a8f80] mt-0.5">
                     Software Engineer • B.Tech IT

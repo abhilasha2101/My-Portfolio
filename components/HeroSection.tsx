@@ -279,7 +279,7 @@ export const HeroSection: React.FC = () => {
                   <div className="flex items-end justify-between z-10 pt-2 border-t border-[#c5a059]/20">
                     <div className="flex flex-col text-left">
                       <span className="font-label text-[7px] uppercase tracking-widest text-[#9a8f80]">
-                        EDITION 2025
+                        SOFTWARE DEVELOPER
                       </span>
                       <span className="font-label text-[8px] uppercase tracking-widest text-[#d1c5b4] font-medium">
                         {activePersona.edition}
