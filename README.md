@@ -11,10 +11,10 @@ An editorial, collectible playing card-inspired personal portfolio website built
 - **Scroll Flourish Animations**: Every section enters as a single stacked card and executes an authentic card flourish, dealing out the remaining cards into the layout.
 - **Featured Projects (Sequential Cascade Hand)**:
   - **Vinyasa** (A♠): Fashion discovery & moodboard platform (Next.js, Tailwind, Supabase).
-  - **Veritas AI** (Q♠): Real-time news verification engine with AI truth scoring (React, Next.js, FastAPI).
-  - **AAkar** (10♥): Civic intelligence & spatial data platform presented to the Chief Minister of Delhi (React, Vite, FastAPI). Includes embedded video walkthrough.
-  - **Expandable Archive**: TwoDo (K♦) & AI Agent Workflow Builder (J♣).
-- **Achievements & Delhi CM Presentation**:
+  - **Veritas** (Q♠): Real-time news verification platform (React, Next.js, FastAPI).
+  - **AAkar** (10♥): Civic data & spatial platform presented to the Chief Minister of Delhi (React, Vite, FastAPI). Includes embedded video walkthrough.
+  - **Expandable Hand**: TwoDo (K♦) & Booth Management System with Java & Spring Boot (J♣).
+- **Achievements & Recognition**:
   - AAkar presentation to the Hon'ble Chief Minister of Delhi, Smt. Atishi Marlena at Delhi Secretariat, and selection for 3-Day Government Innovation Bootcamp.
   - Interactive 3D card-flip with official recognition dossier and high-res lightbox photo expand.
   - NPTEL National Top 5% in Java & Fibohack 1.0 Presentation Award.

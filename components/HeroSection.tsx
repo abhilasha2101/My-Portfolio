@@ -76,7 +76,7 @@ export const HeroSection: React.FC = () => {
 
         <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#0e0e0f]/80 border border-[#c5a059]/30 backdrop-blur-sm">
           <span className="font-label text-[8px] sm:text-[9px] uppercase tracking-[0.22em] text-[#e9c176]/90 font-semibold">
-            DELHI, INDIA • OPEN TO WORK
+            INDORE, MP • OPEN TO WORK
           </span>
         </div>
       </motion.div>
@@ -119,12 +119,12 @@ export const HeroSection: React.FC = () => {
             <div className="w-full h-full rounded-lg border border-[#c5a059]/20 bg-[#1c1b1c] p-2.5 sm:p-3 flex flex-col justify-between items-center overflow-hidden">
               <div className="w-full flex justify-between items-center text-[9px] sm:text-[10px] font-bold text-[#ffb3b5]">
                 <span>Q ♦</span>
-                <span className="font-label text-[7px] sm:text-[8px] tracking-widest uppercase">AI &amp; ML</span>
+                <span className="font-label text-[7px] sm:text-[8px] tracking-widest uppercase">JAVA &amp; SPRING</span>
                 <span>Q ♦</span>
               </div>
               <div className="text-3xl sm:text-4xl text-[#ffb3b5]/40">♦</div>
               <span className="font-label text-[7px] sm:text-[8px] text-[#9a8f80] tracking-widest uppercase">
-                AI AGENTS • FASTAPI • WORKFLOWS
+                JAVA • SPRING BOOT • OOP
               </span>
             </div>
           </div>

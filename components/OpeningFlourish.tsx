@@ -120,12 +120,12 @@ export const OpeningFlourish: React.FC<OpeningFlourishProps> = ({ onComplete }) 
           >
             <div className="flex justify-between items-center text-xs font-bold text-[#ffb3b5]">
               <span>Q ♦</span>
-              <span className="font-label text-[8px] tracking-widest uppercase">AI &amp; MACHINE LEARNING</span>
+              <span className="font-label text-[8px] tracking-widest uppercase">JAVA &amp; SPRING BOOT</span>
               <span>Q ♦</span>
             </div>
             <div className="text-center text-[#ffb3b5]/30 text-6xl">♦</div>
             <div className="text-[8px] font-label tracking-widest text-[#ffb3b5]/80 text-center uppercase">
-              AI AGENTS • FASTAPI
+              JAVA • SPRING BOOT • OOP
             </div>
           </motion.div>
 

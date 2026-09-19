@@ -216,7 +216,7 @@ export const AchievementsSection: React.FC = () => {
                           Delhi Bootcamp Selection
                         </span>
                         <span className="px-2.5 py-0.5 bg-[#1c1b1c] font-label text-[8px] text-[#d1c5b4] rounded border border-[#9a8f80]/20">
-                          Civic &amp; Spatial Intelligence
+                          Civic &amp; Spatial Data Platform
                         </span>
                       </div>
                     </div>
